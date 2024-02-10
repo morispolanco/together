@@ -3,7 +3,7 @@ import requests
 
 endpoint = 'https://api.together.xyz/v1/chat/completions'
 headers = {
-    "Authorization": "Bearer 5b454cb09f602c2a2dbf5f04380d62c027dd26689a962fde4b10bc21b2624abd"
+    "Authorization": "Bearer 5b454cb09f602c2a2dbf5f04380d62c027dd26689a962fde4b10bc21b2624abd" 
 }
 
 def get_chat_completion(prompt):
